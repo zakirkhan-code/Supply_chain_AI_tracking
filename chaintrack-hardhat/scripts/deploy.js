@@ -3,7 +3,7 @@ const hre = require("hardhat");
 async function main() {
   console.log("🚀 Starting deployment...\n");
 
-  // Get the contract factory
+  // Get the contract factory5
   const SupplyChain = await hre.ethers.getContractFactory("SupplyChain");
   
   console.log("📝 Deploying SupplyChain contract...");
